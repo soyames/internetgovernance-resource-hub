@@ -8,7 +8,7 @@ Whether you're a policymaker, researcher, youth advocate, civil society leader, 
 
 ## 🌍 Sections
 
-### 1. 📅 Conferences & Events
+### 1. 📅 [Conferences & Events](conferences-events)
 Stay up to date with major events, forums, and policy gatherings in:
 - Internet Governance
 - Tech & Digital Policy
@@ -16,20 +16,20 @@ Stay up to date with major events, forums, and policy gatherings in:
 - Digital Inclusion & Human Rights
 - Open Source & Internet Infrastructure
 
-### 2. 🎓 Fellowships, Scholarships & Mentorships
+### 2. 🎓 [Fellowships, Scholarships & Mentorships](fellowships-scholarships)
 Find programs that support your learning and growth — from introductory academies to elite fellowships.
 
 ### 3. 🗣️ Speaking Opportunities & Public Consultations
 Engage with platforms that amplify your voice — including open calls for input, panel invites, and collaborative policymaking processes.
 
-### 4. 💼 Job & Internship Boards
+### 4. 💼 [Job & Internship Boards](jobs-internships)
 Curated listings for careers in:
 - Policy & Advocacy
 - Internet Infrastructure
 - Privacy, Security, and Governance
 - International Organizations (e.g., IGOs, NGOs, Think Tanks)
 
-### 5. 💰 Funding for IG Projects
+### 5. 💰 [Funding for IG Projects](funding)
 Get funding for your ideas and initiatives — especially if you're working on:
 - National/Regional IGF initiatives
 - Research
