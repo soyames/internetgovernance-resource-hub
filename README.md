@@ -28,5 +28,4 @@ The website provides:
 
 ```text
 docs/        → Website content (served by MkDocs)
-markdoms/    → Archived / source Markdown files (not rendered)
 .github/     → Contribution & automation configuration
