@@ -24,13 +24,35 @@ A curated list of conferences covering Internet Governance, Tech Policy, Cyberse
 * [October](#-october-2026)
 
 ---
-
 ### 🗓 January 2026
-- 
+
+- **[ICANN86 Policy Forum](https://www.icann.org/en/announcements/details/call-for-applications-nextgenicann86-01-12-2025-en)** 🌍 **Region:** Europe (Seville, Spain)  
+📅 **Date:** June 8–11, 2026  
+💰 **Funding:** Yes (NextGen@ICANN & Fellowship)  
+🗓 **Application Deadline:** NextGen applications open Dec 1, 2025 – Jan 9, 2026.
+
+- **[ARIN 57 Public Meeting](https://arin.swoogo.com/arin57?i=05nkimj-5O6pwCTLfL78JoLwEboWrUn8)** 🌍 **Region:** North America (Louisville, Kentucky & Online)
+📅 **Date:** April 19–22, 2026 
+💰 **Funding:** Yes (Fellowship Program - Travel & Virtual) 
+🗓 **Application Deadline:** January 26, 2026 (Applications currently open!).
 ---
 
 ### 🗓 February 2026
-- 
+
+- **[APIGA Australia](https://www.auda.org.au/public-impact/internet-governance-and-public-policy/apiga-au/)** 🌍 **Region:** Australia (Melbourne, Australia)  
+📅 **Date:** February 10-12, 2026  
+💰 **Funding:** No  
+🗓 **Application Deadline:** (Applications currently closed!).
+
+- **[The International Conference on Digital Platform Governance 2026](https://www.unesco.org/en/articles/international-conference-digital-platform-governance-2026)** 🌍 **Region:** Africa (Pretoria, South Africa)
+📅 **Date:** February 11-13, 2026 
+💰 **Funding:** No 
+🗓 **Application Deadline:** (Applications currently open!).
+
+- **[India AI Impact Summit](https://impact.indiaai.gov.in/)** 🌍 **Region:** Asia (New Delhi, India)  
+📅 **Date:** February 16-20, 2026  
+💰 **Funding:** No  
+🗓 **Application Deadline:** (Applications currently open!).
 
 - 
 ---
@@ -43,12 +65,9 @@ A curated list of conferences covering Internet Governance, Tech Policy, Cyberse
 
 ### 🗓 April 2026
 
-- **[ARIN 57 Public Meeting](https://arin.swoogo.com/arin57?i=05nkimj-5O6pwCTLfL78JoLwEboWrUn8)** 🌍 **Region:** North America (Louisville, Kentucky & Online)
-📅 **Date:** April 19–22, 2026 
-💰 **Funding:** Yes (Fellowship Program - Travel & Virtual) 
-🗓 **Application Deadline:** January 26, 2026 (Applications currently open!).
 
-- 
+
+
 
 ---
 
@@ -64,12 +83,15 @@ A curated list of conferences covering Internet Governance, Tech Policy, Cyberse
 ### 🗓 June 2026
 
 
-- **[ICANN86 Policy Forum](https://www.icann.org/en/announcements/details/call-for-applications-nextgenicann86-01-12-2025-en)** 🌍 **Region:** Europe (Seville, Spain)  
-📅 **Date:** June 8–11, 2026  
-💰 **Funding:** Yes (NextGen@ICANN & Fellowship)  
-🗓 **Application Deadline:** NextGen applications open Dec 1, 2025 – Jan 9, 2026.
 
 ---
+
+### 🗓 August 2026
+
+
+
+---
+
 
 ### 🗓 October 2026
 
