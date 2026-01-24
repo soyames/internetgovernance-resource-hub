@@ -4,7 +4,6 @@ Explore funding sources and grant programs that support Internet Governance init
 
 ---
 
-
 ## 📑 Table of Contents
 * [January](#-january-2026)
 * [February](#-february-2026)
