@@ -50,6 +50,11 @@ A curated list of conferences covering Internet Governance, Tech Policy, Cyberse
 💰 **Funding:** Yes (Fellowship Program - Travel & Virtual) 
 🗓 **Application Deadline:** January 26, 2026 (Applications currently open!).
 
+- **[ITS Global Policy Fellowship Program 2026](https://itsrio.org/en/comunicados/call-for-applications-its-global-policy-fellowship-program-2026/)** 🌍 **Region:** South America(Rio de Janeiro, Brasília and São Paulo)
+📅 **Date:** June 29, 2026 - July 24, 20266.
+💰 **Funding:** Partial Funding
+🗓 **Application Deadline:** January 30, 2026 (Applications currently open!).
+
 - **[Internet and Society Fellowship 2026](https://www.hiig.de/en/call-for-applications-fellowship-2026/)** 🌍 **Region:** Central Europe(Berlin, Germany)
 📅 **Date:** June 1-July 18, 2026.
 💰 **Funding:** No
