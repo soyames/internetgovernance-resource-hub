@@ -1,1 +1,3 @@
 - [Lily Botsyoe](https://github.com/Botsyoelily)
+- [Yao Amevi A. Sossou](https://github.com/soyames)
+- [Abigail Mesrenyame Dogbe](https://github.com/mesrenyamedogbe)
