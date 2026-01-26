@@ -93,6 +93,11 @@ A curated list of conferences covering Internet Governance, Tech Policy, Cyberse
 💰 **Funding:** No  
 🗓 **Application Deadline:** (Applications currently open!).
 
+- **[ISOC Early Career Fellowship](https://www.internetsociety.org/fellowships/early-career/)** 🌍 **Region:** Global (Online)  
+  📅 **Date:** April 5, 2026 – September 2026  
+  💰 **Funding:** Yes   
+  🗓 **Application Deadline:** February 17, 2026(Applications currently open!).
+
  - **[Carr-Ryan Center Fellowship](https://www.hks.harvard.edu/centers/carr-ryan/opportunities/fellowship-opportunities/carr-ryan-center-fellowship)** 🌍 **Region:** North America (Cambridge, MA & Virtual)  
   📅 **Date:** September 1, 2026 – June 30, 2027  
   💰 **Funding:** Unpaid Affiliation  
