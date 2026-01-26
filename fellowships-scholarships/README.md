@@ -89,8 +89,8 @@ A curated list of conferences covering Internet Governance, Tech Policy, Cyberse
   🗓 **Application Deadline:** February 15, 2026 (Applications currently open!).
 
 - **[Mozilla’s New Products Pioneers](https://newproducts.mozilla.org/mozilla-pioneers/)** 🌍 **Region:** North America (Online, US Remote )  
-📅 **Date:** March 16th – May 15th 
-💰 **Funding:** Yes (Paid) 
+📅 **Date:** March 16th – May 15th   
+💰 **Funding:** Yes (Paid)   
 🗓 **Application Deadline:** February 16, 2026 (Applications currently open!).
 
 - **[India AI Impact Summit](https://impact.indiaai.gov.in/)** 🌍 **Region:** Asia (New Delhi, India)  
