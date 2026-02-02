@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Governance Resource Hub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #0066cc;
+            --primary-dark: #0052a3;
+            --primary-light: #e6f0ff;
+            --secondary: #ff6b35;
+            --accent: #00d4ff;
+            --dark: #1a1a2e;
+            --light: #f8f9fa;
+            --gray: #6c757d;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            background: var(--white);
+        }
+
+        /* Navigation */
+        nav {
+            background: var(--white);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 70px;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--primary);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .logo:hover {
+            color: var(--primary-dark);
+        }
+
+        nav a {
+            color: var(--dark);
+            text-decoration: none;
+            margin: 0 20px;
+            transition: color 0.3s;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: var(--primary);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .cta-button {
+            background: var(--primary);
+            color: var(--white);
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: background 0.3s, transform 0.2s;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .cta-button:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+        }
+
+        .cta-button.secondary {
+            background: transparent;
+            border: 2px solid var(--white);
+            color: var(--white);
+        }
+
+        .cta-button.secondary:hover {
+            background: var(--primary-light);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, #003d99 100%);
+            color: var(--white);
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .hero .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 30px;
+            opacity: 0.95;
+            line-height: 1.5;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .hero .cta-button {
+            padding: 14px 32px;
+            font-size: 16px;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 80px 20px;
+        }
+
+        section h2 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 50px;
+            color: var(--dark);
+        }
+
+        .section-subtitle {
+            text-align: center;
+            font-size: 18px;
+            color: var(--gray);
+            margin-bottom: 40px;
+        }
+
+        /* Cards Grid */
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .card {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 30px;
+            text-align: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            border: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+            border-color: var(--primary);
+        }
+
+        .card-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+            display: inline-block;
+            color: var(--primary);
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+        }
+
+        .card h3 {
+            font-size: 22px;
+            margin-bottom: 15px;
+            color: var(--dark);
+        }
+
+        .card p {
+            color: var(--gray);
+            font-size: 15px;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .card a {
+            display: inline-block;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            border-bottom: 2px solid transparent;
+        }
+
+        .card a:hover {
+            border-bottom-color: var(--primary);
+            color: var(--primary-dark);
+        }
+
+        /* Alternating Section Backgrounds */
+        .section-alt {
+            background: var(--light);
+        }
+
+        /* Features Section */
+        .features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+            margin: 60px 0;
+        }
+
+        .feature-content h3 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: var(--dark);
+        }
+
+        .feature-content p {
+            color: var(--gray);
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+        .feature-list {
+            list-style: none;
+        }
+
+        .feature-list li {
+            padding: 12px 0;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: var(--dark);
+            font-weight: 500;
+        }
+
+        .feature-list li:before {
+            content: "";
+            display: inline-block;
+            width: 20px;
+            margin-right: 0;
+        }
+
+        .feature-list li i {
+            color: var(--secondary);
+            font-size: 18px;
+            margin-right: 8px;
+        }
+
+        /* Stats Section */
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            text-align: center;
+            margin: 60px 0;
+        }
+
+        .stat-item {
+            padding: 30px;
+        }
+
+        .stat-number {
+            font-size: 42px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+
+        .stat-label {
+            color: var(--gray);
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        /* Youth Section */
+        .youth-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: var(--white);
+            padding: 60px 20px;
+            border-radius: 12px;
+            margin: 60px 0;
+        }
+
+        .youth-section h3 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .youth-section p {
+            font-size: 18px;
+            margin-bottom: 30px;
+            line-height: 1.6;
+            opacity: 0.95;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: var(--white);
+        }
+
+        .cta-section h2 {
+            color: var(--white);
+            margin-bottom: 20px;
+        }
+
+        .cta-section p {
+            font-size: 18px;
+            margin-bottom: 30px;
+            opacity: 0.95;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--dark);
+            color: var(--white);
+            padding: 60px 20px 30px;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-section h4 {
+            font-size: 16px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .footer-section a {
+            display: block;
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            margin-bottom: 12px;
+            transition: color 0.3s;
+            font-size: 14px;
+        }
+
+        .footer-section a:hover {
+            color: var(--accent);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 30px;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 14px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .hero p {
+                font-size: 18px;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            section h2 {
+                font-size: 28px;
+            }
+
+            .features {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .cards-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .feature-content h3 {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="../index.html" class="logo"><i class="fas fa-globe"></i> IG Hub</a>
+            <div class="nav-links">
+                <a href="#sections">Resources</a>
+                <a href="#youth">Youth IGF</a>
+                <a href="contributing.html">Contribute</a>
+                <a href="https://github.com/Botsyoelily/internetgovernance-resource-hub" class="cta-button secondary" target="_blank" >GitHub</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Internet Governance Resource Hub</h1>
+            <p>A collaborative, open-access directory connecting policymakers, researchers, youth advocates, and civil society leaders to opportunities, resources, and communities across the global Internet Governance ecosystem.</p>
+            <div class="hero-buttons">
+                <a href="#sections" class="cta-button">Explore Resources</a>
+                <a href="#youth" class="cta-button secondary">Join Youth IGF</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="sections">
+        <div class="container">
+            <h2>Discover Key Resources</h2>
+            <p class="section-subtitle">Everything you need to engage with the Internet Governance ecosystem</p>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-calendar-days"></i></div>
+                    <h3>Conferences & Events</h3>
+                    <p>Stay updated with major forums and policy gatherings in Internet Governance, tech policy, cybersecurity, and digital inclusion.</p>
+                    <a href="conferences-events/conferences-events.html">Browse Events →</a>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Fellowships & Scholarships</h3>
+                    <p>Find programs that support your learning and growth — from introductory academies to elite fellowships.</p>
+                    <a href="fellowships-scholarships/fellowships-scholarships.html">View Opportunities →</a>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-microphone"></i></div>
+                    <h3>Speaking Opportunities</h3>
+                    <p>Amplify your voice through open calls for input, panel invites, and collaborative policymaking processes.</p>
+                    <a href="youth-igf/speaker-bank/speaker-bank.html">Speaker Bank →</a>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-briefcase"></i></div>
+                    <h3>Jobs & Internships</h3>
+                    <p>Curated career listings in policy, infrastructure, security, and international organizations.</p>
+                    <a href="jobs-internships/jobs-internships.html">Explore Careers →</a>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-hand-holding-dollar"></i></div>
+                    <h3>Funding Opportunities</h3>
+                    <p>Get funding for your ideas — research, community outreach, and open Internet advocacy.</p>
+                    <a href="funding/funding.html">View Funding →</a>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-star"></i></div>
+                    <h3>Success Stories</h3>
+                    <p>Explore case studies and personal journeys that showcase meaningful impact in Internet Governance.</p>
+                    <a href="success-stories/success-stories.html">Read Stories →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Youth IGF Section -->
+    <section id="youth" class="section-alt">
+        <div class="container">
+            <h2>Youth IGF Zone</h2>
+            <p class="section-subtitle">A dedicated space for young people making an impact in Internet Governance</p>
+            
+            <div class="youth-section">
+                <h3>Get Involved in the Youth IGF Movement</h3>
+                <p>From speaking opportunities and speaker bank listings to resources for starting your own youth initiative — we've got you covered.</p>
+                <div class="cards-grid" style="margin-top: 40px;">
+                    <div class="card" style="background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: white;">
+                        <div class="card-icon"><i class="fas fa-microphone-lines" style="color: white;"></i></div>
+                        <h3 style="color: white;">Speaker Bank</h3>
+                        <p style="color: rgba(255,255,255,0.9);">Browse youth speakers and add your expertise to the community.</p>
+                        <a href="youth-igf/speaker-bank/speaker-bank.html" style="color: #00d4ff; border-bottom-color: #00d4ff;">Explore →</a>
+                    </div>
+
+                    <div class="card" style="background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: white;">
+                        <div class="card-icon"><i class="fas fa-rocket" style="color: white;"></i></div>
+                        <h3 style="color: white;">Start Your Youth IGF</h3>
+                        <p style="color: rgba(255,255,255,0.9);">Templates and guides to build your own national or regional youth initiative.</p>
+                        <a href="#" style="color: #00d4ff; border-bottom-color: #00d4ff;">Get Resources →</a>
+                    </div>
+
+                    <div class="card" style="background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: white;">
+                        <div class="card-icon"><i class="fas fa-chart-bar" style="color: white;"></i></div>
+                        <h3 style="color: white;">Reports & Outcomes</h3>
+                        <p style="color: rgba(255,255,255,0.9);">Learn from past Youth IGF initiatives and get inspired.</p>
+                        <a href="#" style="color: #00d4ff; border-bottom-color: #00d4ff;">View Reports →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section>
+        <div class="container">
+            <h2>Why This Hub?</h2>
+            <div class="features">
+                <div class="feature-content">
+                    <h3>Open & Collaborative</h3>
+                    <p>The Internet Governance ecosystem can feel fragmented and hard to navigate. We've built this hub to centralize opportunities, resources, and voices — all in one place.</p>
+                    <ul class="feature-list">
+                        <li><i class=\"fas fa-check\"></i>Curated by the IG community</li>
+                        <li><i class=\"fas fa-check\"></i>Free and open access</li>
+                        <li><i class=\"fas fa-check\"></i>Regular updates</li>
+                        <li><i class=\"fas fa-check\"></i>Multi-stakeholder approach</li>
+                    </ul>
+                </div>
+                <div class="feature-content">
+                    <h3>For Everyone</h3>
+                    <p>Whether you're a policymaker, researcher, developer, youth advocate, or simply curious about Internet Governance — there's something here for you.</p>
+                    <ul class="feature-list">
+                        <li><i class=\"fas fa-check\"></i>Beginner-friendly resources</li>
+                        <li><i class=\"fas fa-check\"></i>Advanced opportunities</li>
+                        <li><i class=\"fas fa-check\"></i>Global coverage</li>
+                        <li><i class=\"fas fa-check\"></i>Diverse perspectives</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Join the IG Ecosystem</h2>
+            <p>Help us build an informed, connected, and empowered Internet Governance community.</p>
+            <div class="hero-buttons">
+                <a href="contributing.html" class="cta-button" style="background: var(--white); color: var(--primary);">Contribute Your Resources</a>
+                <a href="https://github.com" class="cta-button">Follow on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4><i class="fas fa-globe"></i> IG Hub</h4>
+                <p style="color: rgba(255,255,255,0.8); font-size: 14px;">A collaborative resource for the Internet Governance community.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <a href="conferences-events/conferences-events.html">Events</a>
+                <a href="fellowships-scholarships/fellowships-scholarships.html">Fellowships</a>
+                <a href="jobs-internships/jobs-internships.html">Jobs</a>
+                <a href="funding/funding.html">Funding</a>
+            </div>
+            <div class="footer-section">
+                <h4>Community</h4>
+                <a href="youth-igf/">Youth IGF</a>
+                <a href="success-stories/success-stories.html">Success Stories</a>
+                <a href="contributing.html">Contribute</a>
+            </div>
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <a href="LICENSE">License (CC0)</a>
+                <a href="contributing.html">Guidelines</a>
+                <a href="#">Privacy</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Internet Governance Resource Hub. Available under CC0 1.0 Universal License.</p>
+        </div>
+    </footer>
+</body>
+</html>

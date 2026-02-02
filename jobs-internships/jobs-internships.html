@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobs & Internships - IG Hub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #0066cc;
+            --primary-dark: #0052a3;
+            --primary-light: #e6f0ff;
+            --secondary: #ff6b35;
+            --accent: #00d4ff;
+            --dark: #1a1a2e;
+            --light: #f8f9fa;
+            --gray: #6c757d;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            background: var(--light);
+        }
+
+        /* Navigation */
+        nav {
+            background: var(--white);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 70px;
+        }
+
+        .logo {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--primary);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        nav a {
+            color: var(--dark);
+            text-decoration: none;
+            margin-left: 30px;
+            transition: color 0.3s;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: var(--primary);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, var(--secondary) 0%, #e55200 100%);
+            color: var(--white);
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        header p {
+            font-size: 18px;
+            opacity: 1;
+            line-height: 1.5;
+            color: white;
+        }
+
+        /* Main Content */
+        main {
+            padding: 60px 20px;
+            background: var(--white);
+            min-height: calc(100vh - 70px - 200px);
+        }
+
+        h2 {
+            font-size: 28px;
+            margin: 40px 0 20px;
+            color: var(--dark);
+            border-bottom: 3px solid var(--secondary);
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 20px;
+            margin: 30px 0 15px;
+            color: var(--secondary);
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: var(--gray);
+            line-height: 1.8;
+        }
+
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+            margin: 30px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .table-wrapper table {
+            margin: 0;
+            box-shadow: none;
+        }
+
+        table thead {
+            background: var(--secondary);
+            color: var(--white);
+        }
+
+        table th {
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        table tbody tr {
+            transition: background 0.3s;
+        }
+
+        table tbody tr:hover {
+            background: rgba(255, 107, 53, 0.05);
+        }
+
+        table a {
+            color: var(--secondary);
+            text-decoration: none;
+            font-weight: 600;
+            border-bottom: 2px solid transparent;
+            transition: all 0.3s;
+        }
+
+        table a:hover {
+            border-bottom-color: var(--secondary);
+        }
+
+        /* Blockquote */
+        blockquote {
+            border-left: 4px solid var(--secondary);
+            padding-left: 20px;
+            margin: 20px 0;
+            color: var(--gray);
+            font-style: italic;
+            background: var(--light);
+            padding: 15px 20px;
+            border-radius: 4px;
+        }
+
+        /* Code & Lists */
+        code {
+            background: var(--light);
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+        }
+
+        ul, ol {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            color: var(--gray);
+        }
+
+        /* CTA Button */
+        .cta-button {
+            display: inline-block;
+            background: var(--secondary);
+            color: var(--white);
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.3s;
+            margin-top: 20px;
+            border: none;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        .cta-button:hover {
+            background: #e55200;
+            transform: translateY(-2px);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--dark);
+            color: var(--white);
+            text-align: center;
+            padding: 30px 20px;
+            font-size: 14px;
+        }
+
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 28px;
+            }
+
+            h2 {
+                font-size: 22px;
+            }
+
+            table {
+                font-size: 13px;
+                min-width: 500px;
+            }
+
+            table th, table td {
+                padding: 10px 8px;
+            }
+        }
+
+        .breadcrumb {
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+
+        .breadcrumb a {
+            color: var(--secondary);
+            text-decoration: none;
+            margin: 0 5px;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container" style="max-width: 1200px;">
+            <a href="../index.html" class="logo"><i class="fas fa-globe"></i> IG Hub</a>
+            <a href="../index.html">← Back to Hub</a>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <h1>💼 Jobs & Internships</h1>
+            <p>Career opportunities in Internet Governance and digital policy</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="../index.html">Home</a> / Jobs & Internships
+            </div>
+            <div id="content"></div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Internet Governance Resource Hub. <a href="../LICENSE">CC0 1.0 Universal License</a></p>
+    </footer>
+
+    <script>
+        function extractAndFormatContent(markdown) {
+            const container = document.getElementById('content');
+            let html = '';
+            const lines = markdown.split('\n');
+            let i = 0;
+            let inList = false;
+            let listType = null;
+
+            while (i < lines.length) {
+                const line = lines[i];
+
+                if (line.trim() === '') {
+                    if (inList) {
+                        html += listType === 'ul' ? '</ul>' : '</ol>';
+                        inList = false;
+                    }
+                    i++;
+                    continue;
+                }
+
+                if (line.startsWith('# ')) {
+                    i++;
+                    continue;
+                }
+
+                if (line.startsWith('## ')) {
+                    html += `<h2>${line.substring(3)}</h2>`;
+                    i++;
+                    continue;
+                }
+
+                if (line.startsWith('### ')) {
+                    html += `<h3>${line.substring(4)}</h3>`;
+                    i++;
+                    continue;
+                }
+
+                if (line.trim().startsWith('* ') || line.trim().startsWith('- ')) {
+                    if (!inList || listType !== 'ul') {
+                        if (inList) html += '</' + listType + '>';
+                        html += '<ul>';
+                        inList = true;
+                        listType = 'ul';
+                    }
+                    let itemText = line.trim().substring(2);
+                    itemText = itemText.replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2">$1</a>')
+                                      .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                                      .replace(/`(.*?)`/g, '<code>$1</code>');
+                    html += `<li>${itemText}</li>`;
+                    i++;
+                    continue;
+                }
+
+                if (/^\d+\. /.test(line.trim())) {
+                    if (!inList || listType !== 'ol') {
+                        if (inList) html += '</' + listType + '>';
+                        html += '<ol>';
+                        inList = true;
+                        listType = 'ol';
+                    }
+                    let itemText = line.trim().replace(/^\d+\. /, '');
+                    itemText = itemText.replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2">$1</a>')
+                                      .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                                      .replace(/`(.*?)`/g, '<code>$1</code>');
+                    html += `<li>${itemText}</li>`;
+                    i++;
+                    continue;
+                }
+
+                if (line.includes('|')) {
+                    if (inList) {
+                        html += '</' + listType + '>';
+                        inList = false;
+                    }
+                    let tableHtml = '<table><thead><tr>';
+                    const headerCells = line.split('|').slice(1, -1).map(cell => cell.trim());
+                    headerCells.forEach(cell => {
+                        tableHtml += `<th>${cell}</th>`;
+                    });
+                    tableHtml += '</tr></thead><tbody>';
+                    i++;
+
+                    if (lines[i] && lines[i].includes('|')) {
+                        i++;
+                    }
+
+                    while (i < lines.length && lines[i].includes('|')) {
+                        const rowCells = lines[i].split('|').slice(1, -1).map(cell => cell.trim());
+                        tableHtml += '<tr>';
+                        rowCells.forEach(cell => {
+                            cell = cell.replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2">$1</a>');
+                            tableHtml += `<td>${cell}</td>`;
+                        });
+                        tableHtml += '</tr>';
+                        i++;
+                    }
+
+                    tableHtml += '</tbody></table>';
+                    html += `<div class="table-wrapper">${tableHtml}</div>`;
+                    continue;
+                }
+
+                if (line.startsWith('> ')) {
+                    if (inList) {
+                        html += '</' + listType + '>';
+                        inList = false;
+                    }
+                    html += `<blockquote>${line.substring(2)}</blockquote>`;
+                    i++;
+                    continue;
+                }
+
+                if (line.trim() === '---') {
+                    if (inList) {
+                        html += '</' + listType + '>';
+                        inList = false;
+                    }
+                    html += '<hr style="margin: 40px 0; border: none; border-top: 2px solid rgba(0,0,0,0.1);">';
+                    i++;
+                    continue;
+                }
+
+                if (line.trim() && !line.startsWith('```')) {
+                    if (inList) {
+                        html += '</' + listType + '>';
+                        inList = false;
+                    }
+                    let paragraph = line
+                        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                        .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2">$1</a>')
+                        .replace(/`(.*?)`/g, '<code>$1</code>');
+                    html += `<p>${paragraph}</p>`;
+                }
+
+                i++;
+            }
+
+            if (inList) {
+                html += '</' + listType + '>';
+            }
+
+            container.innerHTML = html;
+        }
+
+        fetch('README.md')
+            .then(response => response.text())
+            .then(markdown => extractAndFormatContent(markdown))
+            .catch(error => {
+                document.getElementById('content').innerHTML = `
+                    <p style="color: #d32f2f; padding: 20px; background: #ffebee; border-radius: 6px;">
+                        <strong>Unable to load content.</strong> Make sure this file is served from a web server (not opened directly as a file). You can use: <code>python -m http.server</code> or the serve.bat script.
+                    </p>
+                `;
+            });
+    </script>
+</body>
+</html>
