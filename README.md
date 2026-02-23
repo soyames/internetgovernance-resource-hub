@@ -8,29 +8,33 @@ Whether you're a policymaker, researcher, youth advocate, civil society leader, 
 
 ## 🌍 Sections
 
-### 1. 📅 Conferences & Events
+### 1. 📅 [Conferences & Events](conferences-events)
 Stay up to date with major events, forums, and policy gatherings in:
+
 - Internet Governance
 - Tech & Digital Policy
 - Cybersecurity
 - Digital Inclusion & Human Rights
 - Open Source & Internet Infrastructure
 
-### 2. 🎓 Fellowships, Scholarships & Mentorships
+### 2. 🎓 [Fellowships, Scholarships & Mentorships](fellowships-scholarships)
 Find programs that support your learning and growth — from introductory academies to elite fellowships.
 
 ### 3. 🗣️ Speaking Opportunities & Public Consultations
+
 Engage with platforms that amplify your voice — including open calls for input, panel invites, and collaborative policymaking processes.
 
-### 4. 💼 Job & Internship Boards
+### 4. 💼 [Job & Internship Boards](jobs-internships)
 Curated listings for careers in:
+
 - Policy & Advocacy
 - Internet Infrastructure
 - Privacy, Security, and Governance
 - International Organizations (e.g., IGOs, NGOs, Think Tanks)
 
-### 5. 💰 Funding for IG Projects
+### 5. 💰 [Funding for IG Projects](funding)
 Get funding for your ideas and initiatives — especially if you're working on:
+
 - National/Regional IGF initiatives
 - Research
 - Community outreach or training
@@ -46,23 +50,31 @@ Get funding for your ideas and initiatives — especially if you're working on:
 
 ---
 
-## 🌐 Website (Recommended way to explore)
+## 🤝 Want to Contribute?
 
-This repository is published as a **documentation website** using MkDocs.
+We welcome your ideas, edits, and expertise!  
+Check out our [Contribution Guidelines](CONTRIBUTING.md) to get started.
 
-👉 **Browse the website:**  
-*(GitHub Pages link will appear here once enabled)*
+You can also:
+- Fork the repo and submit a pull request
+- Open a GitHub Issue with ideas or corrections
+- Or express interest in joining the review team!
 
-The website provides:
-- structured navigation
-- searchable content
-- clean URLs
-- community-friendly reading experience
+## 🌐 Part of the IG Ecosystem
+
+This repository is maintained alongside the [Internet Governance Impact](https://github.com/Botsyoelily/internetgovernance-impact).
+
+Head over to be inspired by success stories in the Internet Governance Ecosystem and learn from the expertise of youth speakers.
+
+**Questions?** Open an issue or reach out to the maintainers!
+
 
 ---
 
-## 📁 Repository structure (important)
+## 🪪 License
+All content in this repository is made available under the **Creative Commons Zero v1.0 Universal (CC0 1.0)** license.  
+Feel free to use, share, remix, or build upon this work — no permission or attribution required.  
+[Read the full legal text →](https://creativecommons.org/publicdomain/zero/1.0/)
 
-```text
-docs/        → Website content (served by MkDocs)
-.github/     → Contribution & automation configuration
+
+Let’s build an informed, connected, and empowered IGF ecosystem — together.

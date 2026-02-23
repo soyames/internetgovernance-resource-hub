@@ -12,6 +12,16 @@ Whether you're looking to **attend**, **speak at**, or **submit proposals**, thi
 
 ---
 
+## ✅ How to Contribute
+
+To add or update an event:
+- Fork the repo and edit this file
+- Open a GitHub Issue with event details
+- Or submit them via our [event submission form](https://docs.google.com/document/d/1u4EoAZwCoR0oOo0BPQ4ZCClFrM7Bo8cxHFQtz9M1TRw/edit?tab=t.0)
+
+Let’s keep the IG community connected and informed.
+
+
 # 🌐 Global Digital Policy & Governance Conferences 2026
 
 A curated list of conferences covering Internet Governance, Tech Policy, Cybersecurity, and Digital Rights.
@@ -47,6 +57,11 @@ A curated list of conferences covering Internet Governance, Tech Policy, Cyberse
 📅 **Date:** February 10–11, 2026  
 💰 **Funding:** No  
 🗓 **Application Deadline:** Ended.
+
+- **[The International Conference on Digital Platform Governance 2026](https://www.unesco.org/en/articles/international-conference-digital-platform-governance-2026)** 🌍 **Region:** Africa (Pretoria, South Africa)  
+📅 **Date:** February 11-13, 2026  
+💰 **Funding:** No  
+🗓 **Application Deadline:** Registration ongoing.
 
 ---
 
@@ -103,17 +118,13 @@ A curated list of conferences covering Internet Governance, Tech Policy, Cyberse
 💰 **Funding:** No  
 🗓 **Application Deadline:** CFP usually closes Jan 2026.
 
+- **[The United Nations Graduate Study Program](https://www.ungeneva.org/en/engage/students-graduates/graduate-study-programme)** 🌍 **Region:** Europe (Geneva, Switzerland)  
+📅 **Date:** June 29th - July 10th, 2026  
+💰 **Funding:** No  
+🗓 **Application Deadline:** February 20th, 2026.
+
 ---
 
 ### 🗓 October 2026
 
 ---
-
-## ✅ How to Contribute
-
-To add or update an event:
-- Fork the repo and edit this file
-- Open a GitHub Issue with event details
-- Or submit them via our [event submission form](#) *(coming soon)*
-
-Let’s keep the IG community connected and informed.
