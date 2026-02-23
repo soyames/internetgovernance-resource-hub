@@ -9,7 +9,6 @@ Whether you're a policymaker, researcher, youth advocate, civil society leader, 
 ## 🌍 Sections
 
 ### 1. 📅 [Conferences & Events](conferences-events)
-
 Stay up to date with major events, forums, and policy gatherings in:
 
 - Internet Governance
@@ -19,7 +18,6 @@ Stay up to date with major events, forums, and policy gatherings in:
 - Open Source & Internet Infrastructure
 
 ### 2. 🎓 [Fellowships, Scholarships & Mentorships](fellowships-scholarships)
-
 Find programs that support your learning and growth — from introductory academies to elite fellowships.
 
 ### 3. 🗣️ Speaking Opportunities & Public Consultations
@@ -27,7 +25,6 @@ Find programs that support your learning and growth — from introductory academ
 Engage with platforms that amplify your voice — including open calls for input, panel invites, and collaborative policymaking processes.
 
 ### 4. 💼 [Job & Internship Boards](jobs-internships)
-
 Curated listings for careers in:
 
 - Policy & Advocacy
@@ -36,7 +33,6 @@ Curated listings for careers in:
 - International Organizations (e.g., IGOs, NGOs, Think Tanks)
 
 ### 5. 💰 [Funding for IG Projects](funding)
-
 Get funding for your ideas and initiatives — especially if you're working on:
 
 - National/Regional IGF initiatives
@@ -59,40 +55,10 @@ Get funding for your ideas and initiatives — especially if you're working on:
 We welcome your ideas, edits, and expertise!  
 Check out our [Contribution Guidelines](CONTRIBUTING.md) to get started.
 
-### For Developers (JavaScript/Node.js)
-
-This project is now built with **Node.js and Express.js**. To contribute code:
-
-1. **Setup Development Environment:**
-
-   ```bash
-   git clone <repository-url>
-   cd internetgovernance-resource-hub
-   npm install
-   npm run dev
-   ```
-
-2. **Review Documentation:**
-
-   - [JAVASCRIPT_SETUP.md](JAVASCRIPT_SETUP.md) - Project structure and setup
-   - [DEVELOPMENT.md](DEVELOPMENT.md) - Development guidelines and best practices
-
-3. **Make Your Changes:**
-   - Add features in `src/` directory
-   - Update configuration in `config/config.js`
-   - Modify routes in `src/routes.js`
-   - Add utilities in `src/utils.js`
-
-### How to Contribute
-
-You can:
-
-- 🔀 **Fork the repo** and submit a pull request with improvements
-- 🐛 **Open a GitHub Issue** with ideas, bugs, or corrections
-- 📝 **Improve documentation** - help us clarify setup and usage
-- 🎨 **Enhance the UI** - improve layouts and user experience
-- 🔧 **Add features** - extend functionality (new sections, APIs, etc.)
-- 👥 **Join the review team** - help review PRs and guide contributors
+You can also:
+- Fork the repo and submit a pull request
+- Open a GitHub Issue with ideas or corrections
+- Or express interest in joining the review team!
 
 ## 🌐 Part of the IG Ecosystem
 
@@ -102,12 +68,13 @@ Head over to be inspired by success stories in the Internet Governance Ecosystem
 
 **Questions?** Open an issue or reach out to the maintainers!
 
+
 ---
 
 ## 🪪 License
-
 All content in this repository is made available under the **Creative Commons Zero v1.0 Universal (CC0 1.0)** license.  
 Feel free to use, share, remix, or build upon this work — no permission or attribution required.  
 [Read the full legal text →](https://creativecommons.org/publicdomain/zero/1.0/)
+
 
 Let’s build an informed, connected, and empowered IGF ecosystem — together.

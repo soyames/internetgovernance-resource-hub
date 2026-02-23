@@ -12,16 +12,6 @@ Whether you're looking to **attend**, **speak at**, or **submit proposals**, thi
 
 ---
 
-## ✅ How to Contribute
-
-To add or update an event:
-- Fork the repo and edit this file
-- Open a GitHub Issue with event details
-- Or submit them via our [event submission form](https://docs.google.com/document/d/1u4EoAZwCoR0oOo0BPQ4ZCClFrM7Bo8cxHFQtz9M1TRw/edit?tab=t.0)
-
-Let’s keep the IG community connected and informed.
-
-
 # 🌐 Global Digital Policy & Governance Conferences 2026
 
 A curated list of conferences covering Internet Governance, Tech Policy, Cybersecurity, and Digital Rights.
@@ -29,7 +19,7 @@ A curated list of conferences covering Internet Governance, Tech Policy, Cyberse
 ---
 
 ## 📑 Table of Contents
-* [January](## 🗓 January 2026)
+* [January](## 1 January 2026)
 * [February](## 2 February 2026)
 * [March](## 3 march-2026)
 * [April](## 4 april-2026)
@@ -39,7 +29,7 @@ A curated list of conferences covering Internet Governance, Tech Policy, Cyberse
 
 ---
 
-### 🗓 January 2026
+### 1 January 2026
 - **[Trinidad and Tobago Internet Governance Forum (TTIGF)](https://igf.tt/)** 🌍 **Region:** Caribbean (Hybrid/Port of Spain)  
 📅 **Date:** January 29–30, 2026  
 💰 **Funding:** Limited (Local support usually available)  
@@ -47,7 +37,7 @@ A curated list of conferences covering Internet Governance, Tech Policy, Cyberse
 
 ---
 
-### 🗓 February 2026
+### 2 February 2026
 - **[FIRST Technical Colloquium Paris](https://www.first.org/events/colloquia/paris2026/)** 🌍 **Region:** Europe (Paris, France)  
 📅 **Date:** February 9–10, 2026  
 💰 **Funding:** No  
@@ -58,14 +48,9 @@ A curated list of conferences covering Internet Governance, Tech Policy, Cyberse
 💰 **Funding:** No  
 🗓 **Application Deadline:** Ended.
 
-- **[The International Conference on Digital Platform Governance 2026](https://www.unesco.org/en/articles/international-conference-digital-platform-governance-2026)** 🌍 **Region:** Africa (Pretoria, South Africa)  
-📅 **Date:** February 11-13, 2026  
-💰 **Funding:** No  
-🗓 **Application Deadline:** Registration ongoing.
-
 ---
 
-### 🗓 March 2026
+### 3 March 2026
 - **[ICANN85 Community Forum](https://meetings.icann.org/en/meetings/icann85/)** 🌍 **Region:** Asia (Mumbai, India)  
 📅 **Date:** March 7–12, 2026  
 💰 **Funding:** Yes (ICANN Fellowship Program & NextGen)  
@@ -78,7 +63,7 @@ A curated list of conferences covering Internet Governance, Tech Policy, Cyberse
 
 ---
 
-### 🗓 April 2026
+### 4 April 2026
 
 - **[ARIN 57 Public Meeting](https://arin.swoogo.com/arin57?i=05nkimj-5O6pwCTLfL78JoLwEboWrUn8)** 🌍 **Region:** North America (Louisville, Kentucky & Online)
 📅 **Date:** April 19–22, 2026 
@@ -92,7 +77,7 @@ A curated list of conferences covering Internet Governance, Tech Policy, Cyberse
 
 ---
 
-### 🗓 May 2026
+### 5 May 2026
 - **[RightsCon 2026](https://www.rightscon.org/)** 🌍 **Region:** Africa (Lusaka, Zambia & Online)  
 📅 **Date:** May 5–8, 2026  
 💰 **Funding:** Yes (Travel Support & Registration Waivers)  
@@ -110,7 +95,7 @@ A curated list of conferences covering Internet Governance, Tech Policy, Cyberse
 
 ---
 
-### 🗓 June 2026
+### 6 June 2026
 
 
 - **[FIRSTCON26 (38th Annual FIRST Conference)](https://www.first.org/conference/2026/)** 🌍 **Region:** North America (Denver, USA)  
@@ -118,13 +103,23 @@ A curated list of conferences covering Internet Governance, Tech Policy, Cyberse
 💰 **Funding:** No  
 🗓 **Application Deadline:** CFP usually closes Jan 2026.
 
-- **[The United Nations Graduate Study Program](https://www.ungeneva.org/en/engage/students-graduates/graduate-study-programme)** 🌍 **Region:** Europe (Geneva, Switzerland)  
-📅 **Date:** June 29th - July 10th, 2026  
-💰 **Funding:** No  
-🗓 **Application Deadline:** February 20th, 2026.
+---
+
+### 7 October 2026
 
 ---
 
-### 🗓 October 2026
+## ✅ How to Contribute
 
----
+## 📝 How submissions work
+
+All submissions are collected using GitHub forms.
+
+You can submit:
+- 🎤 [**Speaker profiles**](https://github.com/Botsyoelily/internetgovernance-resource-hub/issues/new?template=success-story.yml)
+- 🌟 [**Success stories**](https://github.com/Botsyoelily/internetgovernance-resource-hub/issues/new?template=speaker-profile.yml)
+- 💼 [**Opportunities (events, jobs, fellowships)**](https://github.com/Botsyoelily/internetgovernance-resource-hub/issues/new?template=submit-a-new-opportunity.yml)
+
+Each submission is reviewed by a maintainer before being published on the website.
+
+If you are not comfortable using GitHub, you can also send your content by email to **lilybotsyoe@gmail.com**.
