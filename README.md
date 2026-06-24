@@ -1,42 +1,38 @@
-# Internet Governance Resource Hub 🌐
+# 🌐 Internet Governance Resource Hub
 
-Welcome to the Internet Governance Resource Hub — a collaborative, open-access directory for anyone interested in the Internet Governance ecosystem.
+Welcome to the **Internet Governance Resource Hub** — a collaborative, open-access directory for anyone interested in the Internet Governance (IG) ecosystem.
 
 Whether you're a policymaker, researcher, youth advocate, civil society leader, or curious newcomer, this hub is here to help you discover key opportunities, resources, and communities across the globe.
 
 ---
 
-## 🌍 Sections
+## 🌍 Explore the Ecosystem
 
-### 1. 📅 [Conferences & Events](conferences-events)
+### 📅 [Conferences & Events](/resources/conferences)
 Stay up to date with major events, forums, and policy gatherings in:
+- **Internet Governance** (Global & Regional IGFs)
+- **Tech & Digital Policy** (UN, ITU, ICANN)
+- **Cybersecurity & Privacy**
+- **Digital Inclusion & Human Rights**
+- **Open Source & Internet Infrastructure**
 
-- Internet Governance
-- Tech & Digital Policy
-- Cybersecurity
-- Digital Inclusion & Human Rights
-- Open Source & Internet Infrastructure
+### 🎓 [Fellowships & Scholarships](/resources/fellowships)
+Find programs that support your learning and growth — from introductory academies to elite fellowships (e.g., ISOC, ICANN, APNIC).
 
-### 2. 🎓 [Fellowships, Scholarships & Mentorships](fellowships-scholarships)
-Find programs that support your learning and growth — from introductory academies to elite fellowships.
+### 🗣️ [Speaking Opportunities](/resources/speaking)
+Engage with platforms that amplify your voice — including open calls for workshop proposals, panel invites, and collaborative policymaking processes.
 
-### 3. 🗣️ Speaking Opportunities & Public Consultations
-
-Engage with platforms that amplify your voice — including open calls for input, panel invites, and collaborative policymaking processes.
-
-### 4. 💼 [Job & Internship Boards](jobs-internships)
+### 💼 [Job & Internship Boards](/resources/jobs)
 Curated listings for careers in:
+- **Policy & Advocacy**
+- **Internet Infrastructure**
+- **Privacy, Security, and Governance**
+- **International Organizations** (e.g., IGOs, NGOs, Think Tanks)
 
-- Policy & Advocacy
-- Internet Infrastructure
-- Privacy, Security, and Governance
-- International Organizations (e.g., IGOs, NGOs, Think Tanks)
-
-### 5. 💰 [Funding for IG Projects](funding)
+### 💰 [Funding for IG Projects](/resources/funding)
 Get funding for your ideas and initiatives — especially if you're working on:
-
 - National/Regional IGF initiatives
-- Research
+- Academic Research
 - Community outreach or training
 - Open Internet advocacy
 
@@ -44,37 +40,40 @@ Get funding for your ideas and initiatives — especially if you're working on:
 
 ## 📂 IGF Documents & Toolkits
 
-- IGF Charter, WSIS Documents, and Global Digital Compact
-- Toolkits for starting national or regional IGFs
-- Summary reports of key processes and meetings
+- **Global Policy:** IGF Charter, WSIS Documents, and Global Digital Compact.
+- **Capacity Building:** Toolkits for starting national or regional IGFs.
+- **Insights:** Summary reports of key processes and meetings.
 
 ---
 
 ## 🤝 Want to Contribute?
 
-We welcome your ideas, edits, and expertise!  
+We welcome your ideas, edits, and expertise! This is a community-driven project, and your input helps keep it accurate and relevant.
+
 Check out our [Contribution Guidelines](CONTRIBUTING.md) to get started.
 
-You can also:
-- Fork the repo and submit a pull request
-- Open a GitHub Issue with ideas or corrections
-- Or express interest in joining the review team!
+**How you can help:**
+- **Fork & PR:** Submit a pull request with new resources or corrections.
+- **Issues:** Open a GitHub Issue with ideas or to report broken links.
+- **Review:** Join the review team to help verify community submissions.
 
 ## 🌐 Part of the IG Ecosystem
 
 This repository is maintained alongside the [Internet Governance Impact](https://github.com/Botsyoelily/internetgovernance-impact).
 
-Head over to be inspired by success stories in the Internet Governance Ecosystem and learn from the expertise of youth speakers.
+Be inspired by **Success Stories** in the Internet Governance Ecosystem and learn from the expertise of **Youth Speakers**.
 
 **Questions?** Open an issue or reach out to the maintainers!
-
 
 ---
 
 ## 🪪 License
+
 All content in this repository is made available under the **Creative Commons Zero v1.0 Universal (CC0 1.0)** license.  
-Feel free to use, share, remix, or build upon this work — no permission or attribution required.  
+Feel free to use, share, remix, or build upon this work — no permission or attribution required.
+
 [Read the full legal text →](https://creativecommons.org/publicdomain/zero/1.0/)
 
+---
 
-Let’s build an informed, connected, and empowered IGF ecosystem — together.
+*Let’s build an informed, connected, and empowered IGF ecosystem — together.*
